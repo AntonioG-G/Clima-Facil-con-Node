@@ -35,7 +35,7 @@ const pauseInput = [
 ]
 
 const inquirerMenu = async() =>{
-    console.clear();
+    /* console.clear(); */
     console.log('=================================='.yellow);
     console.log('   Conoce el clima con Node.JS'.white);
     console.log('==================================\n'.yellow);
@@ -153,7 +153,7 @@ const confirmDelete = async(tasks = [], id) =>{
             ]
         }
     ]
-    console.clear(); // We clear the console, and put the apps header on top.
+    /* console.clear(); */ // We clear the console, and put the apps header on top.
     console.log('=================================='.yellow);
     console.log('   Gestor de tareas con Node.JS'.white);
     console.log('==================================\n'.yellow);

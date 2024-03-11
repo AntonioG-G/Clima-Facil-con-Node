@@ -1,9 +1,12 @@
-# Ignorar archivos generados por Node.js
+# Ignore Node files LoL
 node_modules/
 npm-debug.log
 
-# Ignorar archivos de entorno
+# Ignore enviroment files
 .env
 
-# Incluir example.env
+# Include example.env
 !example.env
+
+
+data.json
